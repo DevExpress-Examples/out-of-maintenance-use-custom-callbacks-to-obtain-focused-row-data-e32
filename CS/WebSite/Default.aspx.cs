@@ -15,7 +15,7 @@ public partial class Grid_FocusedRow_UpdateTextBox_UpdateTextBoxOnFocusedRowChan
     {
 
     }
-    protected void grid_CustomDataCallback(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewCustomDataCallbackEventArgs e) {
+    protected void grid_CustomDataCallback(object sender, DevExpress.Web.ASPxGridViewCustomDataCallbackEventArgs e) {
         int discount = 0;
         int focusedRow = 0;
         string[] parameters = e.Parameters.Split('|');

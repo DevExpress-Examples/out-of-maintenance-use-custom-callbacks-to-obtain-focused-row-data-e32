@@ -15,7 +15,7 @@ Partial Public Class Grid_FocusedRow_UpdateTextBox_UpdateTextBoxOnFocusedRowChan
 	Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 
 	End Sub
-	Protected Sub grid_CustomDataCallback(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridView.ASPxGridViewCustomDataCallbackEventArgs)
+	Protected Sub grid_CustomDataCallback(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridViewCustomDataCallbackEventArgs)
 		Dim discount As Integer = 0
 		Dim focusedRow As Integer = 0
 		Dim parameters As String() = e.Parameters.Split("|"c)
